@@ -1,0 +1,26 @@
+@include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
+
+.bg{
+    &-green{
+        background-color: $color__green!important;
+    }
+}
+.border{
+    &-green{
+        border-color: $color__green!important;
+    }
+}
+.privacy{
+    &-s1{
+        background-position-x: right!important;
+    }
+}
+
+.text{
+    &-green{
+        color: $color__green!important;
+    }
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
